@@ -3,6 +3,7 @@ import threading
 from bs4 import BeautifulSoup
 import argparse
 from math import floor
+import art
 
 ##### Arg Parser #####
 parser = argparse.ArgumentParser(
@@ -25,6 +26,7 @@ results = []
 
 
 def main():
+    print(art.text2art("Spidey", "random"))
     if args.port:
         resp = requests.get(f"{args.url}:{args.port}", cookies=args.cookie)
     else:

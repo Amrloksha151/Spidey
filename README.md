@@ -8,6 +8,7 @@
 - `requests`
 - `beautifulsoup4`
 - `lxml`
+- `art`
 
 ## Install dependencies:
 
