@@ -1,0 +1,46 @@
+# Spidey
+
+**Spidey** is a Python tool for crawling and scraping web pages.
+
+## Requirements
+
+- Python 3 
+- `requests`
+- `beautifulsoup4`
+- `lxml`
+
+## Install dependencies:
+
+```bash
+git clone https://github.com/Amrloksha151/Spidey
+```
+
+```bash 
+cd Spidey
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python main.py `[-h] -u URL [-p PORT] [-c COOKIE] -t THREADS [-d] [-o OUTPUT]`
+
+```
+
+**Options:**
+  - `-h, --help            show this help message and exit`
+  - `-u URL, --url URL     Target url`
+  - `-p PORT, --port PORT  Custom Target port`
+  - `-c COOKIE, --cookie COOKIE Cookies to be used`
+  - `-t THREADS, --threads THREADS Number of threads`
+  - `-d, --deep            Deep digging`
+  - `-o OUTPUT, --output OUTPUT Output file to save results`
+
+## Example
+
+```bash
+python main.py https://foobar.com -t 3 -d -o /home/output.txt
+```
