@@ -45,3 +45,6 @@ python main.py `[-h] -u URL [-p PORT] [-c COOKIE] -t THREADS [-d] [-o OUTPUT]`
 ```bash
 python main.py https://foobar.com -t 3 -d -o /home/output.txt
 ```
+
+## Donation
+send usdt to this wallet bnb smart chain wallet: **0x9371BbCA1d1C0b40ea13e91b56fFE45c99541212** to help me continue innovating
