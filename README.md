@@ -23,6 +23,7 @@ cd Spidey
 ```bash
 pip install -r requirements.txt
 ```
+***Alternatively you can download the binary version from releases, executable located under dist***
 
 ## Usage
 
